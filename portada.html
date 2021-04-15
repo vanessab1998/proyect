@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +8,62 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="portada.css" />
+    <link rel="stylesheet" href="proyectoSemestral.css" />
 </head>
+
+
+
+  
+
+
 <body>
+<div>
+    <img src="https://media.discordapp.net/attachments/830541921063534608/832283296020168726/logo.jpg"
+   alt="Logo">
+</div>
+
 <!--Arreglar en CSS. Menú con Logo de la Cooperativa-->
-    <nav class="navbar navbar-light bg-light">
+
+
+    <nav class="navbar navbar-light bg-light fixed-top">
+
+       
+
+      
         <a class="navbar-brand" href="#">
-            <img src="imagenes/logo.jpg" width="100" height="100" alt="Logo">
+            
         </a>
-    </nav>
+    
+        <!--  Barra de registro-->
+     
+        
+      
+      
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Iniciar Sesión</a>
+          </li>
+        
+      
+
+
+      </nav>
+    
+     
+  
+    
+
+  
+    
+
+  
+    
+
+  
     
 <!--Carrusel-->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -28,16 +75,19 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
               <div class="container-md">
-                <img src="imagenes/escultura1.jpg" class="d-block w-100" width="400" height="500" alt="Escultura Destacada">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ Iwy6qImblxVZ8Sbt6-ePdMPz1ZyLoX3Gz-ECm629U1HuDbg0s_u1h0JJKoTHvEQk7txM&usqp=CAU"
+                class="d-block w-100" alt="GATO">
+                
               </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>Imágen 1</h5>
+              <h5> <b> GATO QUE NO ES UN GATO </b> </h5>
               <p>Descripción de la imágen 1.</p>
             </div>
           </div>
           <div class="carousel-item">
               <div class="container-md">
-                <img src="imagenes/orfebreria1.jpg" class="d-block w-100" width="400" height="500" alt="Orfebreria Destacada">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/61yOqBLu4cL._AC_.jpg" 
+                class="d-block w-100" alt="Orfebreria Destacada">
               </div>
             <div class="carousel-caption d-none d-md-block">
               <h5>Imágen 2</h5>
@@ -46,11 +96,12 @@
           </div>
           <div class="carousel-item">
               <div class="container-md">
-                <img src="imagenes/pintura1.jif" class="d-block w-100" width="400" height="500" alt="Pintura Destacada">
+                <img src="https://m.media-amazon.com/images/I/71swme75G8L._AC_UL436_.jpg" 
+                class="d-block w-100"  alt="Pintura Destacada">
               </div>
-            <div class="carousel-caption d-none d-md-block">f
-              <h5>Imágen 3</h5>
-              <p>Descripción de la imágen 3.</p>
+            <div class="carousel-caption d-none d-md-block">
+              <h5> <b> GATO QUE NO ES UN GATO </b> </h5>
+              <p>"No creas todo lo que ves"</p>
             </div>
           </div>
         </div>
@@ -64,68 +115,34 @@
         </a>
       </div>
 
-      <!--Imágenes Descripción-->
-      <div class="accordion" id="accordionExample">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Collapsible Group Item #1
-              </button>
-            </h2>
-          </div>
-      
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
-              </button>
-            </h2>
-          </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-            <div class="card-body">
-              Some placeholder content for the second accordion panel. This panel is hidden by default.
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
-              </button>
-            </h2>
-          </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-            <div class="card-body">
-              And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-            </div>
-          </div>
-        </div>
-      </div>
+    </h3>
     
-    
+      <!-- carrusel de imagenes-->
     <div class="col-sm-3">
+  <a href="#myText1" data-toggle="collapse">
+    <img class="img-responsive center-block" src="https://dam.muyinteresante.com.mx/wp-content/uploads/2019/05/escultura.jpg">
+  </a>
+  <br/>
+  <br/>
+  <div id="myText1" class="collapse">
+    <h4 style="text-align:center"><b>José Miguel</b><br/>Estilista Integral</h4>
+  </div>
+</div>
+
+<div class="col-sm-3">
   <a href="#myText2" data-toggle="collapse">
     <img class="img-responsive center-block" src="https://wl-genial.cf.tsp.li/resize/728x/jpg/413/0e8/f4d091511c8ee4a173d9b4e0b8.jpg" />
   </a>
   <br/>
   <br/>
   <div id="myText2" class="collapse">
-    <h4 style="text-align:center"><b>dghsdfkklsdgjklgjdfsgklñ</b><br/>Estilista Integral</h4>
+    <h4 style="text-align:center"><b>Escultura de algo k no se </b><br/> ej: Escultura de Viper</h4>
   </div>
 </div>
 
 <div class="col-sm-3">
   <a href="#myText3" data-toggle="collapse">
-    <img class="img-responsive center-block" src="http://via.placeholder.com/350x150">
+    <img class="img-responsive center-block" src="https://wl-genial.cf.tsp.li/resize/728x/jpg/413/0e8/f4d091511c8ee4a173d9b4e0b8.jpg">
   </a>
    <br/>
   <br/>
@@ -134,11 +151,12 @@
   </div>
 </div>
 
+</body>
 
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-</body>
+
 </html>
