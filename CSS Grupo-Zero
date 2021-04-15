@@ -1,0 +1,122 @@
+body {
+    color: black;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+
+
+}
+
+h1{
+    background-color: #fff;
+    color: teal;
+
+}
+
+h2{
+    color: burlywood;
+    
+    background-position: center;
+    background-size: 300px;
+}
+
+h3{
+   background-position: right;
+    position:right;
+}
+
+nav{
+    color:white ;
+    background-size: 20px;
+
+}
+
+ul{
+    background-repeat: no-repeat ;
+    color: aquamarine;
+    font-size:large;
+    background-position: right 500px;
+    
+
+}
+
+
+
+.navbar-brand{
+    max-height: 50px;
+    background-color: white;
+
+}
+
+.nav justify-content-end{
+    background-color: lightseagreen ;
+
+}
+
+.bg-light{
+
+    background-color: rgb(53, 50, 50)!important;
+}
+
+.carousel-item{
+    
+    vertical-align: none;
+    border-style: none;
+    font-size: large ;
+
+}
+.nav justify-content-end{
+    position: relative;
+    background-position: right;
+
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.d-block{
+    margin-top: 50px;
+    display: block!important;
+}
+
+
+.nav-link{
+    text-align: center;
+    background-color: black;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.img{
+    vertical-align: none;
+    border-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+
+    
+}
+
+
+h5{
+
+    color: #000;
+}
+
+li{
+
+    background-color: black;
+    color: #000
+}
+
+.carouselExampleCaptions{
+    align-items: center;
+}
+
+
+.p{
+    padding-top: 100px;
+}
