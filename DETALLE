@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Cero</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="proyectoSemestral.css" />
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">
+        <img src="https://cdn.discordapp.com/attachments/830541921063534608/832460685073711154/GRUPO_ZERO_LOGO.jpg" width="105" height="40" class="d-inline-block align-top" alt="logo">
+        
+      </a>
+    <a class="navbar-brand" href="#">GRUPO CERO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/ProyectoSemestral.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pintura detalle</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Expresiones artísticas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+            <a class="dropdown-item" href="#">Orfebrería</a>
+            <a class="dropdown-item" href="#">Escultura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Registro.html">Registrarme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">INVITADO</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="validationCustom14">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+</nav>
+<hr></hr>
+<h1>PINTURAS </h1>
+<footer class="blockquote-footer">Los cuadros más anhelados 
+  <hr></hr>
+<body>
+  <div class="container">
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/featured_image/2018/10/02/1538494185904/la-noche-estrellada-de-vincent-van-gogh.jpg" class="card-img-top" alt="cuadro la noche estrellada">
+        <div class="card-body">
+          <h5 class="card-title">La noche estrellada</h5>
+          <p class="card-text">Replica echo a base de óleo sobre lienzo del pintor <br>
+            AUTOR: Rogelio Morales <br>
+            Dimensiones (cm): 40 x 60 <br>
+            TÉCNICA: Óleo sobre lienzo</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_630,q_auto,w_1200/v1610034834/blog-post-open-graph-covers/000/006/315/6315-original.png?1610034834" class="card-img-top" alt="pintura al óleo de árboles">
+        <div class="card-body">
+          <h5 class="card-title">Pintura en acuarelas</h5>
+          <p class="card-text">Replica echa con acuarelas sobre papel <br>
+            AUTOR: José Bobadilla <br>
+            Dimensiones (cm): 40 x 50 <br>
+            TÉCNICA: Acuarelas</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://okdiario.com/img/2018/02/20/como-aprender-a-pintar-al-oleo-655x368.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pintura al óleo</h5>
+          <p class="card-text">Replica echo a base de óleo sobre lienzo <br>
+            AUTORA: Marcela Alvarez <br>
+            Dimensiones (cm): 40 x 70 <br>
+            TÉCNICA: Óleo sobre lienzo</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/c5/6f/2c/c56f2cc4e3636267ebf7b3fd0d286157.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pintura en Acrílica</h5>
+          <p class="card-text">Replica echo a base de pintura acrílica sobre papel<br>
+            AUTOR: Arnaldo Sanchez <br>
+            Dimensiones (cm): 50 x 50 <br>
+            TÉCNICA: Acrílico</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</html>
