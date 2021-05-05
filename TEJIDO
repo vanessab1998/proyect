@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Cero</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="proyectoSemestral.css" />
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">
+        <img src="https://cdn.discordapp.com/attachments/830541921063534608/832460685073711154/GRUPO_ZERO_LOGO.jpg" width="105" height="40" class="d-inline-block align-top" alt="logo">
+        
+      </a>
+    <a class="navbar-brand" href="#">GRUPO CERO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/ProyectoSemestral.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Detalle.html">Pinturas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Expresiones artísticas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Detalle.html">Pinturas</a>
+            <a class="dropdown-item" href="#">Orfebrería</a>
+            <a class="dropdown-item" href="#">Escultura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Registro.html">Registrarme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">INVITADO</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="validationCustom14">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+</nav>
+
+
+
+
+<hr></hr>
+<h1>Nuestros tejidos artesanales</h1>
+
+<hr></hr>
+<body>
+
+
+  <div class="container"><br>
+    <div class="row row-cols-1 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://tejidosacrochetpasoapaso.com/wp-content/uploads/2017/08/como-hacer-un-corazon-a-crochet-cojines-decorativos.jpg" 
+        class="card-img-top" alt="tejido">
+        <div class="card-body">
+          <h5 class="card-title">Almohadones de forma de corazón tejidos</h5>
+          <p class="card-text">Creador/a: Vanessa Cáceres<br>
+            Tamaño: 23 cm x 25 cm<br>
+            Color: Multicolor<br>
+            Material del relleno: soft 1a. calidad<br>
+            100% lavables.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://media.istockphoto.com/photos/red-handcrafted-colorful-textile-bag-close-up-picture-id1130487998" 
+        class="card-img-top" alt="bolsa bordadaroja">
+        <div class="card-body">
+          <h5 class="card-title">Bolso tejido artesanal colorido rojo</h5>
+          <p class="card-text">Creador/a: Sebastian Canche
+            <br>
+            Tamaño: 20 cm x 15 cm<br>
+            Color: Rojo</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://escuelameme.files.wordpress.com/2014/08/telar.jpg?w=900&h=598" 
+        class="card-img-top" alt="telares andinos">
+        <div class="card-body">
+          <h5 class="card-title">Telares andinos de peru</h5>
+          <p class="card-text">Creador/a: Rodrigo Vázquezbr<br>
+            Tamaño: 1 metro de tela<br>
+            Color: Multicolor</p>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://c8.alamy.com/compes/c19rm0/hermoso-colorido-serape-tejido-artesanal-mexicano-c19rm0.jpg" 
+        class="card-img-top" alt="serape tejido">
+        <div class="card-body">
+          <h5 class="card-title">Hermoso colorido serape tejido artesanal mexicano </h5>
+          <p class="card-text">Creador/a: Eduardo González<br>
+            Talla: S/M/L<br>
+            Color: Multicolor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://i.pinimg.com/originals/cd/7c/72/cd7c729bd9a1221b6bb9dd0e3871b06c.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Lindo tejido para mate</h5>
+          <p class="card-text">Creador/a: Roberta Muñoz<br>
+            Tamaño: 1 metro de tela<br>
+            Color: Multicolor</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col mb-4">
+      <div class="card h-100">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_997482-MLA43199314866_082020-O.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Poncho con rombos tejidos</h5>
+          <p class="card-text">Creador/a: Vanessa Cáceres<br>
+            Tamaño: 1 metro de tela<br>
+            Color: Multicolor
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+
+  <hr></hr>
+  
+<nav class="navbar ">
+  <nav class="navbar navbar-light bg-light">
+    <a class="d-inline-block align-top" href="#">
+      <img src="https://cdn.discordapp.com/attachments/830541921063534608/832283296020168726/logo.jpg" width="150" height="150" alt="logo de la empresa">
+    </a> 
+  </nav>
+  <address>
+    <h5>Síguenos en Redes Sociales</h5> 
+    <img src="https://ar.norwegianreward.com/upload/news/how-to-get-CashPoints-social-media-940x620.jpg" width="80" height="40" alt="redes sociales">FACEBOOK: Grupo cero<br> 
+    <p>Contáctanos al Whatsapp:+5693118963<br>
+      Estamos ubicados en:
+      
+    </p>
+    <a class="d-inline-block align-top" href="#">
+      <img src="https://www.consumo-de-combustible.com/uploads/pics/gps-standortsuche-es_01.png" width="100" height="100" alt="logo de la empresa">
+    </a> Avenida Alameda #4356
+  </nav>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+</html>
