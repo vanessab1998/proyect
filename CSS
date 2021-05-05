@@ -1,0 +1,197 @@
+body {
+    color: rgb(48, 38, 109);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+
+
+}
+
+h2{
+    color: burlywood;
+    
+    background-position: center;
+    background-size: 300px;
+}
+
+h3{
+   background-position: right;
+    position:right;
+    text-align-last: center;
+}
+
+nav{
+
+    background-color: rgb(190, 146, 190);
+    background-size: 20px;
+    color: rgb(190, 146, 190);
+
+}
+
+ul{
+    background-repeat: no-repeat ;
+    color: aquamarine;
+    font-size:large;
+    background-position: right 500px;
+    
+
+}
+
+
+
+.navbar-brand{
+    max-height: 50px;
+    background-color:  rgb(48, 38, 109);
+}
+
+.nav justify-content-end{
+    background-color: rgb(190, 146, 190);
+     
+
+}
+
+
+.carousel-item{
+    
+    vertical-align: none;
+    border-style: none;
+    font-size: large ;
+
+}
+.nav justify-content-end{
+    position: relative;
+    background-position: right;
+
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.d-block{
+    margin-top: 50px;
+    display: block!important;
+}
+
+
+.nav-link{
+    text-align: center;
+    background-color: rgb(48, 38, 109);
+    line-height: 1.5;
+    list-style: none;
+}
+
+.img{
+    vertical-align: none;
+    border-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    margin: 30;
+
+    
+}
+
+
+
+
+.carouselExampleCaptions{
+    align-items: center;
+}
+
+
+.p{
+    padding-top: 100px;
+}
+
+.h1{
+    color: rgb(255,55,99);
+    text-align: center;
+}
+
+.rescatecol-12col-nd-6
+{
+    float: right;
+    margin:10px;
+}
+
+.contenidocol-12row
+{
+    text-align: left;
+    float: right;
+    background-position: center;
+}
+
+h1 {
+    color: rgb(128, 57, 128);
+    font-family: 'Dancing Script',  'cursive';
+    font-weight: lighter;
+    text-decoration-line: unset;
+    text-decoration-color: bisque;
+    text-align: center;
+}
+
+.blockquote-footer
+{
+    text-align: center;
+}
+
+.text10
+{
+    text-align: right, center;
+}
+
+.h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', 'cursive';
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration-line: unset;
+    text-align: right;
+}
+
+.navbar-expand-lg
+{
+    background-color:white;
+}
+
+
+.container
+{
+    background-color: rgb(85, 136, 138);
+}
+
+.img
+{
+    align-self: center;
+}
+
+
+.navbar
+{
+    background-color: rgb(48, 38, 109);
+    color: rgb(0, 0, 0);
+}
+
+.h7
+{
+    color: black;
+}
+
+.p10
+{
+    color: black;
+}
+
+.btn btn-primary
+{
+    color:slateblue;
+}
+
+.card2
+{
+    background-color: white;
+    
+    inline-size: 530px;
+}
