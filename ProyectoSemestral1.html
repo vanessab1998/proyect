@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Cero</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="proyectoSemestral.css" />
+    
+</head>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="https://cdn.discordapp.com/attachments/830541921063534608/832460685073711154/GRUPO_ZERO_LOGO.jpg" width="105" height="40" class="d-inline-block align-top" alt="logo">
+        
+      </a>
+    <a class="navbar-brand" href="#">GRUPO CERO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/API_DE_FOTOS/MIAPI.HTML">Api de fotos <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Detalle.html">Pinturas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Expresiones artísticas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+            <a class="dropdown-item" href="#">Orfebrería</a>
+            <a class="dropdown-item" href="#">Escultura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Registro.html">Registrarme</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">INVITADO</a>
+        </li>
+      </ul>
+      <div class="form-inline md-2 ">
+        <input class="form-control mr-sm-2 my-lg-0" type="search" placeholder="Search" aria-label="Search" id="validationCustom12">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </div>
+    </div>
+  </nav>
+  
+<body onload="onLoad()">
+
+<!--Carrusel-->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <div class="container-md">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ Iwy6qImblxVZ8Sbt6-ePdMPz1ZyLoX3Gz-ECm629U1HuDbg0s_u1h0JJKoTHvEQk7txM&usqp=CAU"
+          class="d-block w-100" alt="GATO">
+          
+        </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5><a class="texto" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Detalle.html">Para ver más pinturas </h5>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="container-md">
+          <img src="https://images-na.ssl-images-amazon.com/images/I/61yOqBLu4cL._AC_.jpg" 
+          class="d-block w-100" alt="Orfebreria Destacada">
+        </div>
+    </div>
+
+    <div class="carousel-item">
+        <div class="container-md">
+          <img src="https://m.media-amazon.com/images/I/71swme75G8L._AC_UL436_.jpg" 
+          class="d-block w-100"  alt="Pintura Destacada">
+        </div>
+      <div class="carousel-caption d-none d-md-block">
+        <h5> <b> GATO QUE NO ES UN GATO </b> </h5>
+        <p>"No creas todo lo que ves"</p>
+       </div>
+    </div>
+    
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<hr></hr>
+    <div class="container">
+        <div class="text-left ">
+            <h3>QUIENES SOMOS?</h3>
+            <h6>Grupo Cero</h6>
+            <hr>
+            <p class="text-left">Un grupo de artistas plásticos dedicados a la pintura, escultura, orfebrería, tejido y otras expresiones 
+            artísticas que tienen como fin exponer sus trabajos.</p>
+            <img src="https://ep01.epimg.net/elviajero/imagenes/2020/04/27/actualidad/1587980630_157525_1588078920_noticia_normal.jpg"
+            class="col-md-5 mb-3">
+            <button type="button" class="btn btn-info">Nuestros Trabajos</button
+            class="col-md-7 mb-3">
+        </div>
+   
+    </div>
+
+
+
+    <hr></hr>
+
+        <div class="container">
+        <div id="loader" class="loader">Loading...</div>
+        <div id="container" class="contaier">
+            <div class="block">
+                <div id="location"></div>
+                <div id="date"></div>
+                <div id="description"></div>
+            </div>
+            <div class="block">
+                <div class="information-container">
+                    Temperatura
+                    <div class="information" id="temperature"></div>
+                </div>
+                <div class="information-container">
+                    Humedad
+                    <div class="information" id="humidity"></div>
+                </div>
+                <div class="information-container">
+                    Presion
+                    <div class="information" id="pressure"></div>
+                </div>
+                <button type="button" class="btn btn-info" onclick="findMe()"><h3>Mostrar ubicacion actual</h3></button>
+    <!--Geolocalizacio-->
+    <div id="map"></div>
+    <div></div>
+    <script>
+        function findMe(){
+            var output = document.getElementById('map');
+            //velifica si soporta geolocalizacion
+            if (navigator.geolocation) {
+                output.innerHTML = "<p> Tu navegador soporta geolocalizacion</p>"
+            }else{
+                output.innerHTML = "<p> Tu navegador no soporta geolocalizacion</p>"
+            }
+            //obtenemos longitud y latitut
+            function localizacion(posicion){
+                var latitude = posicion.coords.latitude;
+                var longitude = posicion.coords.longitude;
+                
+                output.innerHTML = "<p>latitud: "+latitude+"<br>longitud: "+longitude+"</p>";
+
+            }
+            function error(){
+                output.innerHTML= "<p>No se pudo obtener la ubicaion</p>"
+
+            };
+
+            navigator.geolocation.getCurrentPosition(localizacion,error )
+        }
+    </script>
+            </div>
+        </div>
+        <script src="app-del-clima.js"></script>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  <hr></hr>
+
+
+    <div class="container">
+      <h1>Nuestras expresiones artísticas</h1>
+    <div class="row row-cols-1 row-cols-md-2">
+        <div class="rounded float-right w-50">
+          <div class="col mb-2">
+          <div class="card">
+            <img src="https://img.culturacolectiva.com/cdn-cgi/image/f=auto,w=1600,q=80,fit=contain/content_image/2020/10/20/1603298551438-esculturas-realistas-de-marmol-con-velo.jpg" 
+            class="card-img-top" alt="escultura">
+            <div class="card-body">
+              <h5 class="card-title">Escultura</h5>
+              <p class="card-text">La Escultura tiene como finalidad expresar la belleza y consiste en el arte de moldear el barro, tallar en piedra, maderas o cualquier otro material, figuras en volumen El escultor, tal como se denomina a la persona que se encarga de llevar a cabo este arte, se expresará creando volumen.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/02/1_Fotolia_170541043_Subscription_Monthly_XL.jpg" 
+            class="card-img-top" alt="tejido">
+            <div class="card-body">
+              <h5 class="card-title">Tejido de artesanal</h5>
+              <p class="card-text">Es una de las actividades artesanas más antiguas de la humanidad, que consiste en entrelazar hilos verticales y horizontales para crear un tejido. Desde tiempos antiguos los pueblos fueron desarrollando y transmitiendo diferentes técnicas y soportes donde colocar los hilos para tejer de manera artesanal</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="https://www.diariodealcala.es/wp-content/uploads/2020/04/Expresiones-art%C3%ADsticas.jpg" 
+            class="card-img-top" alt="Pintura">
+            <div class="card-body">
+              <h5 class="card-title">Pintura</h5>
+              <p class="card-text">La pintura artística es una representación gráfica de la utilización de pigmentos y/u otras sustancias para la creación de una obra visual.La pintura se lleva a cabo con elementos, en general, a través de pinceles y brochas, incluso se realiza usando el cuerpo humano.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-2">
+          <div class="card">
+            <img src="https://www.amexessentials.com/wp-content/uploads/2018/02/Handmade_Gold_Necklace-1024x683.jpg?x24678" 
+            class="card-img-top" alt="Orfebrería">
+            <div class="card-body">
+              <h5 class="card-title">Orfebrería</h5>
+              <p class="card-text"> La orfebrería es una actividad manual que lleva a cabo un profesional especializado en la materia y que consiste en labrar objetos o utensilios hechos en materiales como el oro, la plata, aleaciones y otros metales preciosos.</p>
+            </div>
+          </div>
+        </div>
+
+      
+
+        
+
+      </div>
+
+    </div>
+
+    <hr></hr>
+
+    <h1>Noticias de Arte </h1>
+    <div class="text">
+    <footer class="blockquote-footer">Click en las fotos!
+    </div>
+
+
+<div class="container">
+  <form class="form-inline">
+      <div class="col-md-6 mb-3">
+    <a href="#myText2" data-toggle="collapse">
+      <img class="img-responsive card-img-top" src="https://www.latercera.com/resizer/1T7QXLRbrBMA2H3k6B_Xubu-0lU=/420x0/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/3RDIFGIJ7BF5ZEGGU7Y2FLJOK4.jpg"
+      class="col-md-6 mb-3">
+    </a>
+      <div id="myText2" class="collapse">
+      <h6 style="text-align: center"><h4>Hija y nieta de José Balmes y Gracia Barrios forman colección de sus obras y proyectan museo</h4><br/>Todo sigue igual en el taller que José Balmes y Gracia Barrios compartían en su casa de Ñuñoa. Los pinceles y los atriles están en el mismo sitio, los lienzos gigantes apoyados contra el muro. Sólo falta su presencia. El pintor que llegó a Chile a bordo del Winnipeg a los 12 años, refugiado de la Guerra Civil española, falleció en 2016; su esposa, la artista e hija del escritor Eduardo Barrios, tiene 92 años y dejó de pintar. El deterioro físico no es exactamente la razón. “De salud se mantiene muy bien, pero su percepción de la realidad es distinta hoy, vive en un mundo de fantasía. Está feliz y contenta, pero su cabeza está en otro planeta”, cuenta con tranquilidad su única hija, la artista Concepción Balmes Barrios (1957).</h6>
+      </div>
+      </div>
+
+      
+    <div class="col-md-6 mb-3">
+        <a href="#myText4" data-toggle="collapse">
+          <img class="img-responsive card-img-top" src="https://www.latercera.com/resizer/WbdjnZrxe0b13aksWq88giS7V_E=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/EXHX6LEUQJD7RCKRJI665UQ3IY.jpg" class="card-img-top"
+          class="col-md-6 mb-3">
+        </a>
+         <br/>
+        <br/>
+        <div id="myText4" class="collapse">
+          <h6 style="text-align: center"><h4>La obra de Roser Bru se integra al Museo Reina Sofía de Madrid</h4><br/>Dedicado al arte moderno y contemporáneo, el centro cultural adquirió seis grabados de la artista de 97 años, a través de su familia y Galería Vala. Las piezas forman parte de la serie Made in Spain, hecha en 1965. “Para nosotros es un gran honor”, dice su hija Agna Aguadé.</h6>
+        </div>
+      </div> 
+   
+    </form>
+
+
+  <form class="form-inline">   
+  <div class="col-md-6 mb-3">
+    <a href="#myText3" data-toggle="collapse">
+      <img class="card-img-top" src="https://www.vala.cl/wp-content/uploads/2019/08/Portada-3-768x384.jpg" 
+      class="col-md-6 mb-3 ">
+    </a>
+      <div id="myText3" class="collapse">
+      <h6 style="text-align:center"><h4>Inauguramos la expo Premios Nacionales y Artistas Consagrados (Descuentos especiales)</h4><br/>La exposición cuenta con importantes obras de los Premios Nacionales de Artes Plásticas José Balmes y Gracia Barrios. y más de veinte grabados de Roberto Matta, de la seria Hom’mere que según la critica, es la obra gráfica mejor lograda del artista chileno con mayor reconocimiento internacional.
+        El sábado 7 de septiembre, al mediodía, se dará una charla sobre las obras expuestas, sus artistas y su repercusión en el mercado del arte nacional e internacional. La obras están a la venta y tienen importantes descuentos para los asistentes.</h6>
+      </div>   
+    </div>     
+    
+
+  <div class="col-md-6 mb-3">
+    <a href="#myText5" data-toggle="collapse">
+      <img class="img-responsive card-img-top" src="https://www.vala.cl/wp-content/uploads/2019/08/Portada-VALA-Pura-Sangre-768x384.jpg"  class="card-img-top"
+      class="col-md-6 mb-3">
+    </a>
+     <br/>
+    <br/>
+    <div id="myText5" class="collapse">
+      <h6 style="text-align:center"><h4>Galería VALA y Muebles Pura Sangre abren exposición en Edificio Alonso</h4><br/>Galería de arte VALA y Muebles Pura Sangre crearon una alianza especial para inaugurar una singular exposición de arte y diseño interior, protagonizada por Roberto Matta, Mario Matta y Gordon Matt.
+        La muestra se presentó en el Edificio Alonso (Alonso de Cordova 3788. Vitacura) y contó con una extraordinaria asistencia: artistas, coleccionistas, público en general. Amantes del arte todos.
+        La exposición contó con más de 20 piezas de Roberto Matta, pertenecientes a las series Hom’mere y L’Arc Obscur des Heures. Asimismo, se exhibieron muebles de Mario Matta e intervenciones de Gordon Matta.</h6>
+    </div>
+  </div> 
+  </form>  
+
+</div>
+
+ </form>
+</div>
+ <hr></hr>
+
+
+    <div class="container">
+    <h2>Registro</h2>
+      <form action="" name="registration">
+        <div class="form_group">
+        <label for="inputState" class="custom-select-sm">Documento</label>
+        <select id="inputState" class="form-control">
+        <option selected>Documento</option>
+        <option>RUT</option>
+        <option>PASAPORTE</option>
+        </select>
+        </div>
+
+  
+  
+      <content>
+      <div id="wrapper" >
+        <p>&nbsp;</p>
+        <div class="form_group">
+          <label for="RUT">Rut sin puntos con guión</label>
+          <span class="form_control" id="sizing-addon1"></span>
+          <input type="text" class="form-control" placeholder="24856881-k" aria-describedby="sizing-addon1" id="txt_rut">Válida primero tu rut
+        </div>
+        <div class="btn btn-default btn-lg"></div>
+        <div class="text-alert">
+        <p class="text-info" id="msgerror"></p>
+        </div>
+
+      <div class="form_group">
+      <label for="rut">Nro. pasaporte</label>
+      <input type="number" class="form_control" name="rut" id="rut" placeholder="Ingresa numero de Documento"/>
+      </div> 
+    
+      <div class="form_group">
+      <label for="name"> Nombre completo:</label>
+      <input type="text" class="form_control"name="name" id="name" placeholder="Escriba su nombre completo"/>
+      </div>
+  
+  
+      <div class="form_group">
+      <label for="ciudad">Ciudad</label>
+      <input type="text"class="form_control" name="ciudad" id="ciudad" placeholder="Santiago"/>
+      </div>
+
+
+      <div class="form_group">
+      <label for="email">Email</label>
+      <input type="email"class="form_control" name="email" id="email" placeholder="@gmail.com"/>
+      </div>
+
+      <div class="form_group">
+      <label for="telefono">Telefono</label>
+      <input type="number" class="form_control"name="telefono" id="telefono" placeholder="+56931189636"/>
+      </div> 
+    
+
+      <div class="form_group">
+      <label for="comentario"> Comentario:</label>
+      <input type="text" class="form_control"name="comentario" id="comentario" placeholder="Deje su comentario"/>
+      </div>
+      
+        <p>&nbsp;</p>
+        
+        <button type="submit" id="btnvalida">Enviar</button>
+        
+        <p>&nbsp;</p>
+      </div>
+        
+        <button type="reset" class="btn btn-info">LIMPIAR</button>
+      </div>
+      
+    </content>
+  </form>
+</div>
+
+
+<hr>
+
+
+
+
+<hr></hr>
+
+<nav class="navbar ">
+<nav class="navbar navbar-light bg-light">
+  <a class="d-inline-block align-top" href="#">
+    <img src="https://cdn.discordapp.com/attachments/830541921063534608/832283296020168726/logo.jpg" width="150" height="150" alt="logo de la empresa">
+  </a> 
+</nav>
+<address>
+  <h5>Síguenos en Redes Sociales</h5> 
+  <img src="https://ar.norwegianreward.com/upload/news/how-to-get-CashPoints-social-media-940x620.jpg" width="80" height="40" alt="redes sociales">FACEBOOK: Grupo cero<br> 
+  <p>Contáctanos al Whatsapp:+5693118963<br>
+    Estamos ubicados en:
+    
+  </p>
+  <a class="d-inline-block align-top" href="#">
+    <img src="https://www.consumo-de-combustible.com/uploads/pics/gps-standortsuche-es_01.png" width="100" height="100" alt="logo de la empresa">
+  </a> Avenida Alameda #4356
+</nav>
+  
+</address>
+</nav>
+</body>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+  
+    
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="app-del-clima.js"></script>
+    <script src="form-validation.js"></script>
+    <script src="RutValidador.js"></script>
+    <script src="jquery.rut.js"></script>
+  
+    <script src="https://api.tomorrow.io/v4/timelines?location=-73.98529171943665,40.75872069597532&fields=temperature&timesteps=1h&units=metric&apikey=F4PZLzNMZn2Na296inTOq0kZjIVau0Hl%22%3E"></script>
+
+</html>
