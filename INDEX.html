@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     
-    <link rel="stylesheet"  type="text/css" href="INDEX.css" />
+    <link rel="stylesheet"  type="text/css" href="css/INDEX.css" />
     
 </head>
 
@@ -26,33 +26,30 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="INDEX.html">Inicio <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item active">
-          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/API_DE_FOTOS/MIAPI.HTML">Api de fotos <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="MIAPI.HTML">Api de fotos <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Detalle.html">Pinturas</a>
+          <a class="nav-link" href="DETALLE.html">Pinturas</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Expresiones artísticas
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+            <a class="dropdown-item" href="TEJIDO.HTML">Tejido</a>
             <a class="dropdown-item" href="#">Orfebrería</a>
             <a class="dropdown-item" href="#">Escultura</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Tejido.html">Tejido</a>
+          <a class="nav-link" href="TEJIDO.HTML">Tejido</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="file:///C:/Users/hp/VanePweb/ProyectoSemestral/Registro.html">Registrarme</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">INVITADO</a>
+          <a class="nav-link" href="REGISTRO.html">Registrarme</a>
         </li>
       </ul>
       <div class="form-inline md-2 ">
@@ -175,7 +172,7 @@
 
             }
             function error(){
-                output.innerHTML= "<p>No se pudo obtener la ubicaion</p>"
+                output.innerHTML= "<p>No se pudo obtener la ubicacion</p>"
 
             };
 
@@ -184,7 +181,7 @@
     </script>
             </div>
         </div>
-        <script src="app-del-clima.js"></script>
+        <script src="js/app-del-clima.js"></script>
       </div>
 
 
@@ -361,7 +358,7 @@
 
       <div class="form_group">
       <label for="rut">Nro. pasaporte</label>
-      <input type="number" class="form_control" name="rut" id="rut" placeholder="Ingresa numero de Documento"/>
+      <input type="number" class="form_control" name="pasaporte" id="pasaporte" placeholder="Ingresa numero de Documento"/>
       </div> 
     
       <div class="form_group">
@@ -402,39 +399,63 @@
         <button type="reset" class="btn btn-info">LIMPIAR</button>
       </div>
       
-    </content>
-  </form>
-</div>
-
-
-<hr>
-
-
-
+      </content>
+    </form>
+  </div>
 
 <hr></hr>
 
-<nav class="navbar ">
-<nav class="navbar navbar-light bg-light">
-  <a class="d-inline-block align-top" href="#">
-    <img src="https://cdn.discordapp.com/attachments/830541921063534608/832283296020168726/logo.jpg" width="150" height="150" alt="logo de la empresa">
-  </a> 
-</nav>
-<address>
-  <h5>Síguenos en Redes Sociales</h5> 
-  <img src="https://ar.norwegianreward.com/upload/news/how-to-get-CashPoints-social-media-940x620.jpg" width="80" height="40" alt="redes sociales">FACEBOOK: Grupo cero<br> 
-  <p>Contáctanos al Whatsapp:+5693118963<br>
-    Estamos ubicados en:
-    
-  </p>
-  <a class="d-inline-block align-top" href="#">
-    <img src="https://www.consumo-de-combustible.com/uploads/pics/gps-standortsuche-es_01.png" width="100" height="100" alt="logo de la empresa">
-  </a> Avenida Alameda #4356
-</nav>
-  
-</address>
-</nav>
 </body>
+
+  <!--Footer-->
+
+
+
+  <footer class="section footer-classic context-dark bg-image" style="background: #000000;">
+    
+      <div class="row row-30">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4"><a class="brand" href="index.html"><img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140" height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x"></a>
+            <p>We are an award-winning creative agency, dedicated to the best result in web design, promotion, business consulting, and marketing.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Waves</span><span>. </span><span>All Rights Reserved.</span></p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h5>Contacts</h5>
+          <dl class="contact-list">
+            <dt>Address:</dt>
+            <dd>798 South Park Avenue, Jaipur, Raj</dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>email:</dt>
+            <dd><a href="mailto:#">dkstudioin@gmail.com</a></dd>
+          </dl>
+          <dl class="contact-list">
+            <dt>phones:</dt>
+            <dd><a href="tel:#">https://karosearch.com</a> <span>or</span> <a href="tel:#">https://karosearch.com</a>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-md-4 col-xl-3">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row no-gutters social-container">
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
+      <div class="col"><a class="social-inner" href="#"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+    </div>
+</footer>
 
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
@@ -444,9 +465,9 @@
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-    <script src="app-del-clima.js"></script>
-    <script src="form-validation.js"></script>
-    <script src="RutValidador.js"></script>
+    <script src="js/app-del-clima.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/RutValidador.js"></script>
     <script src="jquery.rut.js"></script>
   
     <script src="https://api.tomorrow.io/v4/timelines?location=-73.98529171943665,40.75872069597532&fields=temperature&timesteps=1h&units=metric&apikey=F4PZLzNMZn2Na296inTOq0kZjIVau0Hl%22%3E"></script>

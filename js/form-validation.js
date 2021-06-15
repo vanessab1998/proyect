@@ -9,6 +9,10 @@ $(function() {
       // The key name on the left side is the name attribute
       // of an input field. Validation rules are defined
       // on the right side
+      pasaporte: {
+        required: true,
+        minlength: 8,
+      },
       name: "required",
       ciudad: "required",
       email: {
@@ -21,13 +25,11 @@ $(function() {
         required: true,
         minlength: 50
       },
-      rut: {
-        required: true,
-        minlength: 8,
-      },
+      
     },
     // Specify validation error messages
     messages: {
+      pasaporte: "Ingresa tu numero de pasaporte",
       name: "Por favor ingresa tu nombre",
       ciudad: "Por favor ingresa tu ciudad",
       comentario: {
