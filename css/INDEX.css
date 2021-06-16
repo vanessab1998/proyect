@@ -32,7 +32,7 @@ h2{
 
 h3{
    background-position: right;
-    position:right;
+    text-align:right;
     text-align-last: center;
 }
 
@@ -64,15 +64,6 @@ h3{
   align-self: center;
 
   
-}
-
-ul{
-    background-repeat: no-repeat ;
-    color: aquamarine;
-    font-size:large;
-    background-position: right 500px;
-    
-
 }
 
 /*navbar*/
@@ -168,8 +159,6 @@ ul{
 {
   background-color:#263238;
 }
-
-
 
 /*API DEL CLIMA*/
 .card2
@@ -387,3 +376,12 @@ footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
 .social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
 .social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
 .social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+ul{
+  background-repeat: no-repeat ;
+  color: rgb(143, 224, 197);
+  font-size:large;
+  background-position: right 500px;
+  
+
+}
