@@ -9,10 +9,10 @@ body {
 }
 
 h2{
-    color: burlywood;
-    
+    color: rgb(255, 255, 255);
     background-position: center;
     background-size: 300px;
+    text-align: center;
 }
 
 h3{
@@ -21,13 +21,6 @@ h3{
     text-align-last: center;
 }
 
-nav{
-
-    background-color: rgb(190, 146, 190);
-    background-size: 20px;
-    color: rgb(190, 146, 190);
-
-}
 
 ul{
     background-repeat: no-repeat ;
@@ -82,13 +75,14 @@ ul{
 }
 
 .img{
-    vertical-align: none;
+    
     border-style: none;
     border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
     border-top-style: none;
     margin: 30;
+    float: left;
 
     
 }
@@ -377,10 +371,6 @@ text-align: center;
 font-size:1.4em;
 }
 
-h2{
-  text-align: center;
-
-}
 
 
 /*footer*/
