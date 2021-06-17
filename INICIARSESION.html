@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo Cero</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">  
+    <link rel="stylesheet"  type="text/css" href="css/INDEX.css" />
+    
+</head>
+
+<body>
+  
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img src="img/logonavbar.jpg" width="105" height="40" class="d-inline-block align-top" alt="logo">
+    </a>
+    <a class="navbar-brand" href="#">GRUPO CERO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="INDEX.html">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="MIAPI.HTML">Api de fotos <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="PINTURAS.html">Pinturas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Expresiones artísticas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="TEJIDO.HTML">Tejido</a>
+            <a class="dropdown-item" href="#">Orfebrería</a>
+            <a class="dropdown-item" href="#">Escultura</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="TEJIDO.HTML">Tejido</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="REGISTRO.html">Iniciar sesión</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom01">Nombres</label>
+        <input type="text" class="form-control" id="validationCustom01" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom02">Apellidos</label>
+        <input type="text" class="form-control" id="validationCustom02" required>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationCustom03">Correo</label>
+        <input type="text" class="form-control" id="validationCustom03" required>
+        <div class="invalid-feedback">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationCustom04">Sexo</label>
+        <select class="custom-select" id="validationCustom04" required>
+          <option selected disabled value="">Sexo</option>
+          <option>Mujer</option>
+          <option>Hombre</option>
+          <option>Indefinido</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="form-row">
+          
+      </div><div class="col-md-3 mb-3">
+            <label for="validationCustom05">Contraseña</label>
+            <form class="form-inline">
+                <input type="password" id="inputPassword6" class="form-control mx-sm-3" id="validationCustom0">
+                <div class="invalid-feedback">
+                Please provide a valid zip.
+            </div><small id="validationCustom04" class="text-muted">
+                  Must be 8-20 characters long.
+                </small>
+            </form>
+      </div>
+        <button class="btn btn-primary" type="submit">Iniciar sesion</button>
+    </form>
+  </div>
+  <script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+</div>
+
+</body>
+    <hr></hr>
+    <!--Footer-->
+    <footer class="footer">
+    <div class="container">
+    <div class="row">
+    <div class=" col-sm-4 col-md col-sm-8  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">GRUPO ZERO</h5>
+    <!--headin5_amrc-->
+    <p class="mb10">Somos un grupo de artistas dedicados a la pintura, escultura, orfebrería y al tejido artesanal además de otras expresiones artísticas</p>
+    <p><i class="fa fa-location-arrow"></i> Nos ubicamos en: <br> Santa María 2321, Peñalolen</p>
+    <p><i class="fa fa-phone"></i>  +56931189636  </p>
+    <p><i class="fa fa fa-envelope"></i> obrasdearte@gmail.com </p>
+    </div>
+
+    <div class=" col-sm-4 col-md col-7 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">MAPA</h5>
+    <!--headin5_amrc-->
+    <div><img src="img/mapa.png" width="180" height="200" alt="mapa de la empresa"></div>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    <div class=" col-sm-4 col-md  col-8 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Redes Sociales</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <div><img src="img/facebook.png" width="30" height="30" alt="mapa de la empresa">  GRUPO ZERO</div>
+    <div><img src="img/instagram.png" width="30" height="30" alt="mapa de la empresa">  Grupo_zero</div>
+    <div><img src="img/twitter.png" width="30" height="30" alt="mapa de la empresa">  Grupo_zero</div>
+    <div><img src="img/whatsapp.png" width="30" height="30" alt="mapa de la empresa">  +56 931189636</div>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-12 col">
+    <!--headin5_amrc ends here-->
+    <h5 class="headin5_amrc col_white_amrc pt2">Logo</h5>
+    <ul class="footer_ul2_amrc">
+    <div><img src="img/logocuadrado.jpg" width="200" height="200" alt="logo de la empresa"></div>
+    </ul>
+    <!--footer_ul2_amrc ends here-->
+    </div>
+    </div>
+    <ul class="foote_bottom_ul_amrc">
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="MIAPI.HTML">API de fotos</a></li>
+        <li><a href="PINTURAS.html">Pinturas</a></li>
+        <li><a href="TEJIDO.HTML">Tejido</a></li>
+    </ul>
+        <!--foote_bottom_ul_amrc ends here-->
+    </div>
+    </footer>
+
+    <script src="https://api.tomorrow.io/v4/timelines?location=-73.98529171943665,40.75872069597532&fields=temperature&timesteps=1h&units=metric&apikey=F4PZLzNMZn2Na296inTOq0kZjIVau0Hl%22%3E"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="js/app-del-clima.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/RutValidador.js"></script>
+    <script src="jquery.rut.js"></script>
+
+</html>
