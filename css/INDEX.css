@@ -24,7 +24,7 @@ h1 {
 }
 
 h2{
-    color: rgb(255, 255, 255);
+    color: rgb(199, 194, 194);
     background-position: center;
     background-size: 300px;
     text-align: center;
@@ -34,6 +34,7 @@ h3{
    background-position: right;
     text-align:right;
     text-align-last: center;
+    
 }
 
 
@@ -51,21 +52,20 @@ h3{
     color: black;
 }
 
+.p2{
+  font-family: 'Dancing Script', 'cursive';
+  color:rosybrown;
+  font-size: 20px;
+  text-align: right;
+}
 
 .img{
     
-  border-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-top-style: none;
   margin: 30;
-  float: left;
-  align-self: center;
-
+  align-items: center;
+  
   
 }
-
 /*navbar*/
 .nav justify-content-end{
     background-color: rgb(190, 146, 190);
@@ -107,19 +107,21 @@ h3{
 
 .carouselExampleCaptions{
     align-items: center;
+ 
 }
 .w-100 {
   width: 100%!important;
 }
 
-
 .carousel-item{
     
-  vertical-align: none;
+  vertical-align: center;
   border-style: none;
   font-size: large ;
-
+  align-items: center;
+ 
 }
+
 
 /*PINTURAS*/
 .card-text{
