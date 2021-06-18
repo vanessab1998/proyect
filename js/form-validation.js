@@ -3,7 +3,7 @@ $(function() {
   // It has the name attribute "registration"
   
 
-  $("form[name='registration']").validate({
+  $("form[name='comentario']").validate({
     // Specify validation rules
     rules: {
       // The key name on the left side is the name attribute

@@ -1,6 +1,6 @@
 body {
     
-    background-color: #f7e4c2;
+    background-color: #eee7da;
     background-repeat: no-repeat;
     background-size: 300px;
     background-position: center;
@@ -99,31 +99,15 @@ h3{
     display: block!important;
 }
 
-
-
-
-
 /*CARROUSEL*/
 
-.carouselExampleCaptions{
-    align-items: center;
-    text-align: center;
-    align-self: center;
-    align-content: center;
-}
-.w-100 {
-  width: 100%!important;
+.slide{
+  margin-top: 10px;
 }
 
-.carousel-item{
-    
-  vertical-align: center;
-  border-style: none;
-  font-size: large ;
-  align-items: center;
- 
+.slide img{
+  height: 70vh;
 }
-
 
 /*PINTURAS*/
 .card-text{
@@ -299,6 +283,17 @@ form button {
   display: block;
   width: 100%;
 }
+
+#btnvalida{
+  background: #e67e22;
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
 form input {
   height: 25px;
   line-height: 25px;
@@ -308,14 +303,7 @@ form input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-form button {
-  height: 30px;
-  line-height: 30px;
-  background: #e67e22;
-  color: #fff;
-  margin-top: 10px;
-  cursor: pointer;
-}
+
 form .error {
   color: #ff0000;
 }
