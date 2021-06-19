@@ -5,14 +5,14 @@ $(document).ready(function(){
         //DIGIMON
         $.get({
             url: 'https://digimon-api.vercel.app/api/digimon',
-            success: function(listaSW) {
+            success: function(listaDG) {
  
              var tarjetas = $('#tarjetas')
              tarjetas.empty();
  
-             console.log(listaSW)
+             console.log(listaDG)
  
-             $.each(listaSW, function(indice, elemento){
+             $.each(listaDG, function(indice, elemento){
                  tarjetas.append("<div class='card'>"+
                          "<img src='" + elemento.img + "' class='card-img-top' alt='" + elemento.name + "'>"+
                          "<div class='card-body'>"+
@@ -25,12 +25,11 @@ $(document).ready(function(){
              });
  
             },
-            error: function(error) {
-                console.error(error);
+            error: function(erroerrorResponse) {
+                console.error(errorResponse);
             }
         })
      })
- 
-})
 
+})
 
