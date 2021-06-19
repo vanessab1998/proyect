@@ -268,8 +268,7 @@ h3{
 }
 
 form {
-  padding: 20px;
-  
+  padding: 70px;
   color: #fff;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -285,10 +284,9 @@ form button {
 }
 
 #btnvalida{
-  background: #e67e22;
+  background: #2d8366;
   height: 30px;
   line-height: 30px;
-  background: #e67e22;
   color: #fff;
   margin-top: 10px;
   cursor: pointer;
