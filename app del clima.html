@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clima en tu lugar</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="app-del-clima.css" rel="stylesheet" type="text/css">
+    </head>
+    <body onload="onLoad()">
+        <div id="loader" class="loader">Loading...</div>
+        <div id="container" class="contaier">
+            <div class="block">
+                <div id="location"></div>
+                <div id="date"></div>
+                <div id="description"></div>
+            </div>
+            <div class="block">
+                <div class="information-container">
+                    Temperatura
+                    <div class="information" id="temperature"></div>
+                </div>
+                <div class="information-container">
+                    Humedad
+                    <div class="information" id="humidity"></div>
+                </div>
+                <div class="information-container">
+                    Presion
+                    <div class="information" id="pressure"></div>
+                </div>
+                <button type="button" class="btn btn-info" onclick="findMe()"><h3>Mostrar ubicacion actual</h3></button>
+    <!--Geolocalizacio-->
+    <div id="map"></div>
+    <div></div>
+    <script>
+        function findMe(){
+            var output = document.getElementById('map');
+            //velifica si soporta geolocalizacion
+            if (navigator.geolocation) {
+                output.innerHTML = "<p> Tu navegador soporta geolocalizacion</p>"
+            }else{
+                output.innerHTML = "<p> Tu navegador no soporta geolocalizacion</p>"
+            }
+            //obtenemos longitud y latitut
+            function localizacion(posicion){
+                var latitude = posicion.coords.latitude;
+                var longitude = posicion.coords.longitude;
+                
+                output.innerHTML = "<p>latitud: "+latitude+"<br>longitud: "+longitude+"</p>";
+
+            }
+            function error(){
+                output.innerHTML= "<p>No se pudo obtener la ubicaion</p>"
+
+            };
+
+            navigator.geolocation.getCurrentPosition(localizacion,error )
+        }
+    </script>
+            </div>
+        </div>
+        <script src="app-del-clima.js"></script>
+      
+    </body>
+</html>
